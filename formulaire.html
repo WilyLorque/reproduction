@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire2</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+
+<body>
+    <section>
+        <div class="connexion">
+            <button class="direction" type="#signup.html">Inscription</button>
+            <button class="direction2" type="#login.html">Connexion</button>
+        </div>
+        <form action="#" method="post">
+            <h3>Inscription gratuite!</h3>
+            <div>
+                <input class="name" type="text" name="firstNameInput" id="firstNameInput" placeholder="Prénom">
+                <input class="name" type="text" name="lastNameInput" id="lastNameInput" placeholder="Nom">
+            </div>
+            <div>
+                <input class="email" type="email" name="emailInput" id="emailInput" placeholder="adresse mail">
+                <input class="password" type="password" name="passwordInput" id="passwordInput"
+                    placeholder="Mot de passe">
+            </div>
+            <div>
+                <input type="radio" id="trés bien" name="drone" value="trés bien" checked>
+                <label for="trés bien">trés bien </label>
+            </div>
+
+            <div>
+                <input type="radio" id="bien" name="drone" value="bien">
+                <label for="bien">bien </label>
+            </div>
+
+            <div>
+                <input type="radio" id="correct" name="drone" value="louie">
+                <label for="correct">correct</label>
+            </div>
+            <label class="label" for="program-select">choix:</label>
+            <select class="select" name="programm" id="program-select">
+                <option value="">-- Choisie une option --</option>
+                <option value="">Programme complet</option>
+                <option value="">Programme sportif</option>
+                <option value="">Programe nutritif</option>
+                <option value="">Programme main soeur</option>
+            </select>
+            <button class="finish" type="submit">Commencer Maintenant !</button>
+        </form>
+    </section>
+</body>
+
+</html>

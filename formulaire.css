@@ -1,0 +1,64 @@
+section{ 
+    background-color: darkgoldenrod;
+    text-align: center ; width: 30%;
+    margin: 0 auto; height: 600;
+    border-radius: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3{
+    font-size: 220%;
+    color: darkred; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+}
+
+button{
+    background-color: black;
+    border: none;
+    padding: 20px;
+    color: gold;
+    margin-top: 20px;
+    width: 80%;
+    font-size: 150%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    
+}
+
+button:hover{
+    background-color: darkturquoise;
+   
+}
+
+.password{
+    margin-bottom: 25px;
+    padding: 3%;
+    background-color: red;
+    border: none;
+    font-size: 90%;
+    text-align: center;
+    border-radius: 15px;
+}
+.email{
+    padding: 3%;
+    background-color: darkorange;
+    border: none;
+    text-align: center;
+    font-size: 90%;
+    border-radius: 15px;
+}
+.name{
+    padding: 3%;
+    background-color: greenyellow;
+    border: none;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 90%;
+    border-radius: 15px;
+}
+
+.select{
+    color: white;
+    background-color: black;
+    border: none;
+}

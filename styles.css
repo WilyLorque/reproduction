@@ -1,0 +1,75 @@
+h3{
+    color: white;
+    font-size:180%;
+    font-family:serif;
+    font-weight: 300;
+}
+
+
+section{
+    background-color: #213232; 
+    text-align: center; width: 30%;
+    margin: 0 auto;
+    height: 500px;
+}
+
+button{
+   padding: 25px;
+   background-color: #435257;
+   color: white;
+   border: none;
+           
+}
+
+button:hover{
+    background-color:  #18b389;
+    
+}
+
+.direction{
+     width: 43%; margin-top: 30px; font-size: medium;
+}
+
+.finish{
+      text-decoration: none;
+      color: white;
+      padding: 35px 145px;
+      background-color: #1cb18b !important;
+      font-size: 1.5em;
+}
+
+.adress{
+    width: 80%; margin: 15px;
+    background-color: #213232; 
+    border-style: inset;
+    color: gray;
+    padding: 2%;
+    border-style: ridge;
+    border-color: #435257;
+    border: solid 2px;
+}
+
+.password{
+    width: 80%; margin: 15px;
+    background-color: #213232;
+    color: gray;
+     padding: 2%;
+     border-style: ridge;
+    border-color: #435257;
+    border: solid 2px;
+    margin-bottom: 50px;
+}
+
+.name{
+    background-color: #213232;
+    color: gray;
+    padding: 2%; margin: 5px;
+    border-style: ridge;
+    border-color: #435257;
+    border: solid 2px;
+}
+
+.connexion{
+    display: flex; 
+    justify-content: center;
+}
